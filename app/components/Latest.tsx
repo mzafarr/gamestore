@@ -5,7 +5,7 @@ const Latest = () => {
     <section>
       <div className="px-4 sm:px-8 mx-auto w-full py-14">
         <p className="text-center">Latest Release</p>
-        <h2 className="text-4xl text-white text-center font-semibold mt-2 pb-14">
+        <h2 className="text-5xl text-white text-center font-semibold mt-2 pb-14">
           CREATE & <span className="text-orange-400">MANAGE</span>
         </h2>
         <div className="flex mx-auto justify-center items-center w-full gap-x-4 py-6 ">

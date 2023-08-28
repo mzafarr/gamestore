@@ -3,13 +3,13 @@ import React from "react";
 export const ReleasedGames = () => {
   return (
     <section
-      className="bg-white my-14 text-xl w-screen flex justify-center"
+      className="bg-white text-gray-700 py-28 text-xl w-screen flex justify-center"
       id="features"
       aria-label="featured game"
     >
       <div className="container">
-        <h2 className="text-4xl font-bold text-center py-8">
-          All Released <span className=" text-orange-400">Games</span>
+        <h2 className="text-5xl font-bold text-center pb-12">
+          ALL RELEASED <span className=" text-orange-400">GAMES</span>
         </h2>
 
         <ul className="flex cursor-pointer">
@@ -26,17 +26,14 @@ export const ReleasedGames = () => {
                 />
               </figure>
 
-              <div className="card-content">
-                <h3 className="font-medium text-xl mt-3 mb-1.5 font-orange-400" >
-                  <a href="#" className="text-orange-400">
-                    Just for <span className="span">Gamers</span>
-                  </a>
-                </h3>
-
-                <span className="card-meta">
-                  <span className="span">Playstation 5, Xbox</span>
-                </span>
-              </div>
+              <h3 className="text-xl mt-3 mb-1 font-orange-400 font-semibold">
+                <a href="#" className="text-orange-500">
+                  Just for <span className="span">Gamers</span>
+                </a>
+              </h3>
+              <span className="card-meta">
+                <span className="span">Playstation 5, Xbox</span>
+              </span>
             </div>
           </li>
 
@@ -52,18 +49,14 @@ export const ReleasedGames = () => {
                   className="img-cover"
                 />
               </figure>
-
-              <div className="card-content">
-                <h3 className="font-medium text-xl mt-3 mb-1.5 font-orange-400" >
-                  <a href="#" className="text-orange-400">
-                    Need for <span className="span">Speed</span>
-                  </a>
-                </h3>
-
-                <span className="card-meta">
-                  <span className="span">Playstation 5, Xbox</span>
-                </span>
-              </div>
+              <h3 className="text-xl mt-3 mb-1 font-orange-400 font-semibold">
+                <a href="#" className="text-orange-500">
+                  Need for <span className="span">Speed</span>
+                </a>
+              </h3>
+              <span className="card-meta">
+                <span className="span">Playstation 5, Xbox</span>
+              </span>
             </div>
           </li>
 
@@ -80,17 +73,14 @@ export const ReleasedGames = () => {
                 />
               </figure>
 
-              <div className="card-content">
-                <h3 className="font-medium text-xl mt-3 mb-1.5 font-orange-400" >
-                  <a href="#" className="text-orange-400">
-                    Egypt Hunting <span className="span">Gamers</span>
-                  </a>
-                </h3>
-
-                <span className="card-meta">
-                  <span className="span">Playstation 5, Xbox</span>
-                </span>
-              </div>
+              <h3 className="text-xl mt-3 mb-1 font-orange-400 font-semibold">
+                <a href="#" className="text-orange-500">
+                  Egypt Hunting <span className="span">Gamers</span>
+                </a>
+              </h3>
+              <span className="card-meta">
+                <span className="span">Playstation 5, Xbox</span>
+              </span>
             </div>
           </li>
 
@@ -106,18 +96,14 @@ export const ReleasedGames = () => {
                   className="img-cover"
                 />
               </figure>
-
-              <div className="card-content">
-                <h3 className="font-medium text-xl mt-3 mb-1.5 font-orange-400" >
-                  <a href="#" className="text-orange-400">
-                    Just for <span className="span">Gamers</span>
-                  </a>
-                </h3>
-
-                <span className="card-meta">
-                  <span className="span">Playstation 5, Xbox</span>
-                </span>
-              </div>
+              <h3 className="text-xl mt-3 mb-1 font-orange-400 font-semibold">
+                <a href="#" className="text-orange-500">
+                  Just for <span className="span">Gamers</span>
+                </a>
+              </h3>
+              <span className="card-meta">
+                <span className="span">Playstation 5, Xbox</span>
+              </span>
             </div>
           </li>
         </ul>
