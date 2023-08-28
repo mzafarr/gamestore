@@ -1,5 +1,5 @@
 import React from "react";
-
+import { ProductCard } from "./ProductCard";
 function Shop() {
   return (
     <section
@@ -18,133 +18,34 @@ function Shop() {
         </p>
 
         <ul className="flex  gap-x-8 px-4">
-          <div className="flex flex-col relative cursor-pointer">
-            <figure className="card-banner img-holder">
-              <img
-                src="./images/shop-img-1.jpg"
-                width="300"
-                height="260"
-                loading="lazy"
-                alt="Women Black T-Shirt"
-                className="img-cover"
-              />
-            </figure>
-
-            <a
-              href="#"
-              className="absolute bottom-24 left-1 ml-1 px-2 py-1 bg-orange-400"
-            >
-              t-shirt
-            </a>
-            <div className="flex flex-col items-start py-2">
-              <h3 className="">
-                <a href="#" className="card-title">
-                  Women Black T-Shirt
-                </a>
-              </h3>
-
-              <div className="text-orange-300">
-                <p className="card-price">$29.00</p>
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-col relative cursor-pointer">
-            <figure className="card-banner img-holder">
-              <img
-                src="./images/shop-img-2.jpg"
-                width="300"
-                height="260"
-                loading="lazy"
-                alt="Gears 5 Xbox Controller"
-                className="img-cover"
-              />
-            </figure>
-
-            <a
-              href="#"
-              className="absolute bottom-24 left-1 ml-1 px-2 py-1 bg-orange-400"
-            >
-              x-box
-            </a>
-            <div className="flex flex-col items-start py-2">
-              <h3 className="">
-                <a href="#" className="card-title">
-                  Gears 5 Xbox Controller
-                </a>
-              </h3>
-
-              <div className="text-orange-300">
-                <p className="card-price">$29.00</p>
-
-                <button className="card-btn"></button>
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-col relative cursor-pointer">
-            <figure className="card-banner img-holder">
-              <img
-                src="./images/shop-img-3.jpg"
-                width="300"
-                height="260"
-                loading="lazy"
-                alt="GeForce RTX 2070"
-                className="img-cover"
-              />
-            </figure>
-
-            <a
-              href="#"
-              className="absolute bottom-24 left-1 ml-1 px-2 py-1 bg-orange-400"
-            >
-              Graphics
-            </a>
-            <div className="flex flex-col items-start py-2">
-              <h3 className="">
-                <a href="#" className="card-title">
-                  GeForce RTX 2070
-                </a>
-              </h3>
-
-              <div className="text-orange-300">
-                <p className="card-price">$29.00</p>
-
-                <button className="card-btn"></button>
-              </div>
-            </div>
-          </div>
-
-          <div className="flex flex-col relative cursor-pointer">
-            <figure className="card-banner img-holder">
-              <img
-                src="./images/shop-img-4.jpg"
-                width="300"
-                height="260"
-                loading="lazy"
-                alt="Virtual Reality Smiled"
-                className="img-cover"
-              />
-            </figure>
-
-            <a
-              href="#"
-              className="absolute bottom-24 left-1 ml-1 px-2 py-1 bg-orange-400"
-            >
-              VR-Box
-            </a>
-            <div className="flex flex-col items-start py-2">
-              <h3 className="">
-                <a href="#" className="card-title">
-                  Virtual Reality Smiled
-                </a>
-              </h3>
-
-              <div className="text-orange-300">
-                <p className="card-price">$29.00</p>
-
-                <button className="card-btn"></button>
-              </div>
-            </div>
-          </div>
+          <ProductCard
+            imgSrc="./images/shop-img-1.jpg"
+            altText="Women Black T-Shirt"
+            category="t-shirt"
+            title="Women Black T-Shirt"
+            price="29.00"
+          />
+          <ProductCard
+            imgSrc="./images/shop-img-2.jpg"
+            altText="Gears 5 Xbox Controller"
+            category="x-box"
+            title="Gears 5 Xbox Controller"
+            price="29.00"
+          />
+          <ProductCard
+            imgSrc="./images/shop-img-3.jpg"
+            altText="GeForce RTX 2070"
+            category="Graphics"
+            title="GeForce RTX 2070"
+            price="29.00"
+          />
+          <ProductCard
+            imgSrc="./images/shop-img-4.jpg"
+            altText="Virtual Reality Smiled"
+            category="VR-Box"
+            title="Virtual Reality Smiled"
+            price="29.00"
+          />
         </ul>
       </div>
     </section>

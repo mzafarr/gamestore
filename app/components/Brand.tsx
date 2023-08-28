@@ -3,7 +3,7 @@ import React from "react";
 const Brand = () => {
   return (
     <section className="flex justify-center w-screen py-14 gap-x-4 opacity-75" aria-label="brand">
-      <div className="brand-item">
+      <div className="cursor-pointer duration-200 hover:-translate-y-1">
         <img
         className="mx-4"
           src="./images/brand-1.png"
@@ -14,7 +14,7 @@ const Brand = () => {
         />
       </div>
 
-      <div className="brand-item">
+      <div className="cursor-pointer duration-200 hover:-translate-y-1">
         <img
         className="mx-4"
           src="./images/brand-2.png"
@@ -25,7 +25,7 @@ const Brand = () => {
         />
       </div>
 
-      <div className="brand-item">
+      <div className="cursor-pointer duration-200 hover:-translate-y-1">
         <img
         className="mx-4"
           src="./images/brand-3.png"
@@ -36,7 +36,7 @@ const Brand = () => {
         />
       </div>
 
-      <div className="brand-item">
+      <div className="cursor-pointer duration-200 hover:-translate-y-1">
         <img
         className="mx-4"
           src="./images/brand-4.png"
@@ -47,7 +47,7 @@ const Brand = () => {
         />
       </div>
 
-      <div className="brand-item">
+      <div className="cursor-pointer duration-200 hover:-translate-y-1">
         <img
         className="mx-4"
           src="./images/brand-5.png"
@@ -58,7 +58,7 @@ const Brand = () => {
         />
       </div>
 
-      <div className="brand-item">
+      <div className="cursor-pointer duration-200 hover:-translate-y-1">
         <img
         className="mx-4"
           src="./images/brand-6.png"

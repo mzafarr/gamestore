@@ -4,10 +4,10 @@ import React from "react";
 
 const GameCard = ({ imageSrc, altText, genre, title, price }: any) => {
   return (
-    <div className="flex flex-col relative px-3">
+    <div className="hover:scale-105 duration-200 flex flex-col relative px-3">
       <figure>
         <img
-          className="hover:scale-105 transition cursor-pointer"
+          className="transition cursor-pointer"
           src={imageSrc}
           width="320"
           loading="lazy"

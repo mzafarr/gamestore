@@ -25,3 +25,16 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+/* ImageAnimation.css */
+@keyframes floatUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+.image-float {
+  animation: floatUpDown 3s infinite ease-in-out;
+}

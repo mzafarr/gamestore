@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div className="bg-gray-800 px-4 sm:px-14 text-lg py-5 flex justify-between gap-x-3 w-screen">
       <a className="text-orange-400 text-2xl mr-3 sm:mr-8 font-bold" href="#">GAMICS</a>
-      <nav className="flex w-screen  gap-x-3">
+      <nav className="flex w-screen  gap-x-3 font-sans font-semibold">
         <a className="hidden sm:block hover:text-orange-400 transform px-3" href="#">
           HOME
         </a>
@@ -19,10 +19,10 @@ const Navbar = () => {
         </a>
       </nav>
       <button className="px-3 cursor-pointer">
-        <AiOutlineShoppingCart size={30}/>
+        <AiOutlineShoppingCart size={30} className="hover:text-orange-400"/>
       </button>
       <button className="cursor-pointer">
-        <BsSearch size={25}/>
+        <BsSearch size={25} className="hover:text-orange-400"/>
       </button>
     </div>
   );
